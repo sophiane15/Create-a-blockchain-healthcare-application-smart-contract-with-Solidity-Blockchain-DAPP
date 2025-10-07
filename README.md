@@ -200,11 +200,3 @@ const records = await contract.methods.getPatientRecords(1001).call();
    - Records cannot be modified once created  
    - Full, auditable history of all additions  
 
-### Best Practices
-
-- **Never share** your private keys  
-- **Always test** on a test network before production  
-- **Verify provider addresses** before authorizing  
-- **Monitor contract events** for suspicious activity
-
-Sources
